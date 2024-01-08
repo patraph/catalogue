@@ -45,7 +45,7 @@ a.hover {
 #banniere {
     background: url(../img/bg-header.webp);
     padding: 50px 0;
-    
+
 }
 
 #texte, h2 {
@@ -76,19 +76,28 @@ a.hover {
 }
 
 body > main > h1 {
+    color: #111;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
 
 }
 body > main > p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+    text-align: center;
+    font-size: 15px;
 }
 .limit-size {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
 }
+#grille {
 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
