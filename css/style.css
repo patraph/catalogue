@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+.row-limit-size {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    
+}
+body > header > nav > ul {
+   
+    display: flex;
+    
+}
+.main-menu > ul > li > a {
+    display: block;
+    height: 80px;
+    line-height: 80px;
+    padding: 0 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #111;
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
+    transition: all .3s ease;
+    letter-spacing: -1px;
+
+}
+a.hover {
+    line-height: 80px;
+    height: 80px;
+    width: 70px;
+    border-radius: 40px;
+    background-color: rgb(216, 23, 81);
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+#banniere {
+    background: url(../img/bg-header.webp);
+    padding: 50px 0;
+    
+}
+
+#texte, h2 {
+    color: rgb(204, 142, 183);
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+
+#texte, h1 {
+    color: #fff;
+    font-size: 80px;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 0 30px 0;
+}
+#texte, p {
+    color: #fff;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 70px;
+   
+}
+#banniere {
+    text-align: center;
+}
+
+body > main > h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+body > main > p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.limit-size {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
